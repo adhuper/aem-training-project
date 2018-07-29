@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <aem-training-project jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <structure jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <policy_1532789184373
+                        jcr:lastModified="{Date}2018-07-28T20:17:13.268+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="AEM Training Project Design"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="aem-training-project:base">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1532789184373>
+                </page>
+            </structure>
+        </components>
+    </aem-training-project>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_128797316443213
+                        jcr:lastModified="{Date}2018-07-29T10:44:29.829+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="AEM Training Project Component Policy 1"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/list,/libs/foundation/components/table,/libs/wcm/foundation/components/textimage]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_128797316443213>
+                    <policy_1532840917349
+                        jcr:lastModified="{Date}2018-07-29T10:38:55.592+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Layout"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:General">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1532840917349>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>
